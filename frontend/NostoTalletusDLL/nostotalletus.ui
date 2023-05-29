@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NostoTalletus</class>
+ <widget class="QDialog" name="NostoTalletus">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>491</width>
+    <height>459</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>491</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <widget class="QLabel" name="labelMaara">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <layout class="QFormLayout" name="formLayout">
+      <property name="sizeConstraint">
+       <enum>QLayout::SetDefaultConstraint</enum>
+      </property>
+      <property name="formAlignment">
+       <set>Qt::AlignHCenter|Qt::AlignTop</set>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QPushButton" name="button10Euros">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton#button10Euros{
+background-color:rgba(242, 140, 40,0.9); color: rgba(0, 0, 0, 0.8);
+color: white;
+}
+QPushButton#button10Euros:hover{
+background-color:rgba(230, 120, 40,0.9); color: rgba(0, 0, 0, 0.8); 
+}</string>
+        </property>
+        <property name="text">
+         <string>10€</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="button20Euros">
+        <property name="styleSheet">
+         <string notr="true">QPushButton#button20Euros{
+background-color:rgba(242, 140, 40,0.9); color: rgba(0, 0, 0, 0.8);
+border-width: 2px; border-color: rgba(255, 140, 40,1); 
+color: white;
+}
+QPushButton#button20Euros:hover{
+background-color:rgba(230, 120, 40,0.9); color: rgba(0, 0, 0, 0.8); 
+}</string>
+        </property>
+        <property name="text">
+         <string>20€</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QPushButton" name="button50Euros">
+        <property name="styleSheet">
+         <string notr="true">QPushButton#button50Euros{
+background-color:rgba(242, 140, 40,0.9); color: rgba(0, 0, 0, 0.8);
+color: white;
+}
+QPushButton#button50Euros:hover{
+background-color:rgba(230, 120, 40,0.9); color: rgba(0, 0, 0, 0.8); 
+}</string>
+        </property>
+        <property name="text">
+         <string>50€</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QPushButton" name="buttonEnter">
+        <property name="styleSheet">
+         <string notr="true">QPushButton#buttonEnter{
+background-color:rgba(242, 140, 40,0.9); color: rgba(0, 0, 0, 0.8); 
+color: white;
+}
+QPushButton#buttonEnter:hover{
+background-color:rgba(230, 120, 40,0.9); color: rgba(0, 0, 0, 0.8); 
+}</string>
+        </property>
+        <property name="text">
+         <string>ENTER</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QPushButton" name="buttonMuu">
+        <property name="styleSheet">
+         <string notr="true">QPushButton#buttonMuu{
+background-color:rgba(242, 140, 40,0.9); color: rgba(0, 0, 0, 0.8);
+color: white;
+}
+QPushButton#buttonMuu:hover{
+background-color:rgba(230, 120, 40,0.9); color: rgba(0, 0, 0, 0.8); 
+}</string>
+        </property>
+        <property name="text">
+         <string>Muu Summa</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QPushButton" name="button190Euros">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton#button190Euros{
+background-color:rgba(242, 140, 40,0.9); color: rgba(0, 0, 0, 0.8); 
+color: white;
+}
+QPushButton#button190Euros:hover{
+background-color:rgba(230, 120, 40,0.9); color: rgba(0, 0, 0, 0.8); 
+}</string>
+        </property>
+        <property name="text">
+         <string>190€</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QPushButton" name="button90Euros">
+        <property name="styleSheet">
+         <string notr="true">QPushButton#button90Euros{
+background-color:rgba(242, 140, 40,1);
+color:  white;
+}
+QPushButton#button90Euros:hover{
+background-color:rgba(230, 120, 40,0.9); color: rgba(0, 0, 0, 0.8); 
+}</string>
+        </property>
+        <property name="text">
+         <string>90€</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QPushButton" name="button140Euros">
+        <property name="styleSheet">
+         <string notr="true">QPushButton#button140Euros{
+background-color:rgba(242, 140, 40,0.9); 
+color: white;
+}
+QPushButton#button140Euros:hover{
+background-color:rgba(230, 120, 40,0.9); color: rgba(0, 0, 0, 0.8); 
+}</string>
+        </property>
+        <property name="text">
+         <string>140€</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0" colspan="2">
+       <widget class="QPushButton" name="buttonPeruuta">
+        <property name="mouseTracking">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton#buttonPeruuta{
+background-color:rgba(242, 140, 40,0.9); color: rgba(0, 0, 0, 0.8);
+color: white;
+}
+QPushButton#buttonPeruuta:hover{
+background-color:rgba(230, 120, 40,0.9); color: rgba(0, 0, 0, 0.8); 
+}</string>
+        </property>
+        <property name="text">
+         <string>Peruuta</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLineEdit" name="textNostoTalletus">
+      <property name="styleSheet">
+       <string notr="true">border-style: outset;  border-width: 2px;   border-color: rgba(255, 140, 40,1);</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

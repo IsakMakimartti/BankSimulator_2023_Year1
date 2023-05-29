@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CreditDebit</class>
+ <widget class="QDialog" name="CreditDebit">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>271</width>
+    <height>122</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="Push_Credit">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>40</y>
+     <width>80</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#Push_Credit{
+background-color:rgba(242, 140, 40,0.9); color: rgba(0, 0, 0, 0.8); border-style: outset;  border-width: 2px;   border-radius: 10px; border-color: rgba(255, 140, 40,1);
+color: white;
+}
+QPushButton#Push_Credit:hover{
+background-color:rgba(230, 120, 40,0.9); color: rgba(0, 0, 0, 0.8); 
+}</string>
+   </property>
+   <property name="text">
+    <string>Credit tili</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Push_Debit">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>40</y>
+     <width>80</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#Push_Debit{
+background-color:rgba(242, 140, 40,0.9); color: rgba(0, 0, 0, 0.8); border-style: outset;  border-width: 2px;   border-radius: 10px; border-color: rgba(255, 140, 40,1);
+color: white;
+}
+QPushButton#Push_Debit:hover{
+background-color:rgba(230, 120, 40,0.9); color: rgba(0, 0, 0, 0.8); 
+}</string>
+   </property>
+   <property name="text">
+    <string>Debit tili</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

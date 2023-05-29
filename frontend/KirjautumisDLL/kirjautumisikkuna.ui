@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Kirjautumisikkuna</class>
+ <widget class="QDialog" name="Kirjautumisikkuna">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>276</width>
+    <height>188</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="Push_Peruuta">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>120</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#Push_Peruuta{
+background-color:rgba(242, 140, 40,0.9); color: rgba(0, 0, 0, 0.8); border-style: outset;  border-width: 2px;   border-radius: 10px; border-color: rgba(255, 140, 40,1);
+color: white;
+} 
+QPushButton#Push_Peruuta:hover{
+background-color:rgba(230, 120, 40,0.9); color: rgba(0, 0, 0, 0.8); 
+}
+QPushButton#Push_Peruuta:focus{
+background-color:rgba(230, 120, 40,0.9); color: rgba(0, 0, 0, 0.8); 
+}</string>
+   </property>
+   <property name="text">
+    <string>Peruuta</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Push_Kirjaudu">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>120</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#Push_Kirjaudu{
+background-color:rgba(242, 140, 40,0.9); color: rgba(0, 0, 0, 0.8); border-style: outset;  border-width: 2px;   border-radius: 10px; border-color: rgba(255, 140, 40,1);
+color: white;
+} 
+QPushButton#Push_Kirjaudu:hover{
+background-color:rgba(230, 120, 40,0.9); color: rgba(0, 0, 0, 0.8); 
+}
+QPushButton#Push_Kirjaudu:focus{
+background-color:rgba(230, 120, 40,0.9); color: rgba(0, 0, 0, 0.8); 
+}R</string>
+   </property>
+   <property name="text">
+    <string>Kirjaudu</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Line_Input">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>60</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit#Line_Input{
+border-style: outset;  border-width: 2px; border-color: rgba(255, 140, 40,1);
+}
+QLineEdit#Line_Input:focus{
+border-style: outset;  border-width: 2px; border-color: rgba(230, 100, 40,1);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Lable_Otsikko">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>10</y>
+     <width>291</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+background-color:rgba(242, 140, 40,0.5); 
+font-weight: 600; 
+color: white;
+letter-spacing: 1px;
+</string>
+   </property>
+   <property name="text">
+    <string>Pinkoodi</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Lable_viesti">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>100</y>
+     <width>111</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Lable_Yritys">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>160</y>
+     <width>291</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Yrityksiä Jäljellä: 3</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
